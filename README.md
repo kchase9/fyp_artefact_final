@@ -2,6 +2,8 @@
 
 Included in this repository are the necessary files that represent the artefact for Kristeen Chase's Computer Science thesis: Creole Representation in Automated Speech Recognition: Benchmarking the Performance of Speech Recognition Architectures.
 
+*At the time of submission, the original trained files cannot be uploaded to Github. As such, the versions stored in this repository were cleaned and commented for viewing. To view the trained files, visit: https://github.com/kchase9/fyp_repository.git*
+
 ## Abstract
 Guyanese Creole (Creolese) is a low resource language that is commonly spoken by locals of Guyana. Most Automated Speech Recognition (ASR) models lack the ability to accurately transcribe the language due to the lack of technical support and resources. In this research project, we create a custom dataset of two hours of Creolese audio, transcribed using an academically-accepted, pronunciation-based spelling system. This dataset was used in the process of identifying the best model for Creolese speech-to-text. Three popular models were selected, representing the Attention-based Encoder Decoder (AED), Connectionist Temporal Classification (CTC) and Recurrent Neural Network Transducer (RNN-T) architectures of ASR models. The dataset was used to fine tune two of these models, and the performance of all five implementations were compared to identify the most suitable one. Through this process, we identified Whisper, the representative of the AED architecture, as the best performing model, despite being prone to oscillation errors. Using this model, we created an interface for Creolese Speech-to-Text to demonstrate a proof of concept to aid in discussions about the successes and shortcomings of this process. Lastly, we identify avenues of future research that would facilitate the integration of Creolese into the field of ASR.
 
@@ -36,3 +38,5 @@ pip install -r requirements.txt
 ```
 
 This will install the dependencies required to run the models. 
+
+---
