@@ -21,6 +21,20 @@ The folders labelled "tokenizer_files", "training_outputs" "trained_predictions"
 ## How to reproduce the environment:
 In the root folder, open the Command Prompt and perform the following tasks:
 
+### Create necessary folders
+In the command prompt, run the following commands:
+
+Linux:
+```bash
+mkdir -p tokenizer_files training_outputs/wav2vec2_training_output training_outputs/whisper_training_output trained_predictions pretrained_predictions
+```
+
+Windows:
+
+``` bash
+mkdir tokenizer_files training_outputs\wav2vec2_training_output training_outputs\whisper_training_output trained_predictions pretrained_predictions
+```
+
 ### Clone the dataset
 In the Command Prompt, run the following line:
 
